@@ -1,6 +1,10 @@
+<script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+</script>
+
 <template>
   <div>
-    <Home></Home>
+    Nuxt
   </div>
 </template>
 
