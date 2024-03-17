@@ -1,11 +1,13 @@
 
 <!-- import layoutHeader from '~/components/layout-header.vue'; -->
 <template>
-  <div>
+  <div class="h-100vh">
     <AppHeader>
       <LayoutHeader></LayoutHeader>
     </AppHeader>
-    <slot />
-    <AppFooter>footer</AppFooter>
+    <div style="height: calc(100% - 60px);" class="bg-#F8F4EC overflow-y-auto">
+      <slot />
+    </div>
+    <!-- <AppFooter>footer</AppFooter> -->
   </div>
 </template>

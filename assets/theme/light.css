@@ -1,6 +1,5 @@
 /* assets/css/themes/light.css */
 .light {
-    --background-color: #ffffff;
-    --text-color: #000000;
-    // 其他你需要自定义的变量
+    --header-bg-color: #527853;
+    --main-bg-color: #F8F4EC;
 }
