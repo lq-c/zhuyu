@@ -1,0 +1,6 @@
+/* assets/css/themes/dark.css */
+.dark {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    // 其他你需要自定义的变量
+}

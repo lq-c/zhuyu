@@ -9,8 +9,16 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@element-plus/nuxt'
+    '@element-plus/nuxt',
+    '@unocss/nuxt'
   ],
+  unocss: {
+    uno: true,
+    icons: true,
+    attributify: true,
+    shortcuts: {},
+    rules: [],
+  },
   elementPlus: { /** Options */ },
   devtools: { enabled: true }
 })
