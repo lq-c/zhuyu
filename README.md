@@ -12,11 +12,7 @@ Make sure to install the dependencies:
 
 ```bash
 Start the development server on `http://localhost:3000`:
-# npm
+
 pnpm install
 
-# pnpm
 pnpm run dev
-
-# yarn
-pnpm run build
