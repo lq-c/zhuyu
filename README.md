@@ -4,7 +4,7 @@
 
 ## Games
 
-# 我平时会玩Valorant和小冰冰传奇，如果可以一起玩的话，请大声呼唤zhuyu的名字
+我平时会玩Valorant和小冰冰传奇，如果可以一起玩的话，请大声呼唤zhuyu的名字
 
 ## Setup
 
