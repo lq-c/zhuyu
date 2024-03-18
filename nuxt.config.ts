@@ -12,13 +12,6 @@ export default defineNuxtConfig({
     '@element-plus/nuxt',
     '@unocss/nuxt'
   ],
-  unocss: {
-    uno: true,
-    icons: true,
-    attributify: true,
-    shortcuts: {},
-    rules: [],
-  },
   elementPlus: { /** Options */ },
   devtools: { enabled: true }
 })
