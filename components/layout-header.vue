@@ -13,8 +13,9 @@ function themeChange(val: boolean | string | number) {
 </script>
 
 <template>
-  <div bg="[rgba(255,255,255,0.7)]" flex flex-items-center flex-justify-between h-60px px-24px shadow-xl shadow="#344955">
-    <div>今日大吉</div>
+  <div bg="[rgba(243,242,241)]" w-400px border-rd-6px flex flex-items-center flex-justify-between h-40px px-24px
+    shadow-sm shadow="#fff" border="1px solid #000">
+    <div>太抽象了</div>
     <div class="font-size-22px">zhuyu</div>
     <el-switch v-model="themeSwitch" @change="themeChange"
       style="--el-switch-on-color: #344955; --el-switch-off-color: #78A083">
