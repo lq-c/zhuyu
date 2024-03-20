@@ -8,11 +8,13 @@ const appConfig = useAppConfig();
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <Setting></Setting>
 </template>
 
 <style>
 body {
   margin: 0;
   padding: 0;
+  color: #adbac7;
 }
 </style>
