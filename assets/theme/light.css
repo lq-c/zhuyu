@@ -1,5 +1,6 @@
 /* assets/css/themes/light.css */
 .light {
     --header-bg-color: #527853;
-    --main-bg-color: #F8F4EC;
+    --text-color: #000;
+    --main-bg-image: url("/public/vague-rose-light.jpg");
 }

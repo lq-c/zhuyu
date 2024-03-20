@@ -2,10 +2,15 @@
 import useTheme from "~/hook/useTheme";
 const { systemTheme, setTheme } = useTheme();
 
-const themeSwitch = ref(false);
+const theme = ref(systemTheme.value == "dark" ? true : false);
+
+// const themeSwitch = computed(() => {
+//   return systemTheme.value === "dark" ? true : false;
+// });
 
 function themeChange(val: boolean | string | number) {
-  console.log("val", val);
+  // console.log("val", val);
+  setTheme(val ? "dark" : "light");
 }
 </script>
 
@@ -16,7 +21,7 @@ function themeChange(val: boolean | string | number) {
       <template #dropdown>
         <el-dropdown-menu>
           <el-dropdown-item>
-            <el-switch v-model="themeSwitch" @change="themeChange"
+            <el-switch v-model="theme" @change="themeChange"
               style="--el-switch-on-color: #344955; --el-switch-off-color: #78A083">
               <template #active-action>
                 <div class="i-carbon:moon" />

@@ -1,6 +1,7 @@
 /* assets/css/themes/dark.css */
 .dark {
     --background-color: #121212;
-    --text-color: #ffffff;
+    --text-color: #adbac7;
+    --main-bg-image: url("/public/vague-rose-dark.jpg");
     // 其他你需要自定义的变量
 }
