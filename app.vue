@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig();
 const appConfig = useAppConfig();
-
+import 'element-plus/theme-chalk/dark/css-vars.css'
 </script>
 
 <template>

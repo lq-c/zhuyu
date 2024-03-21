@@ -62,7 +62,7 @@ import { useDark, useToggle } from '@vueuse/core';
 
 function useTheme() {
   const isDark = useDark({
-    selector: 'body',
+    // selector: 'body',
     attribute: 'class',
     valueDark: 'dark',
     valueLight: 'light',
