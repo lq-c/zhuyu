@@ -10,8 +10,8 @@ const { systemTheme, setTheme } = useTheme();
       <template #dropdown>
         <el-dropdown-menu>
           <el-dropdown-item>
-            <div v-if="systemTheme == 'dark'" i-carbon:moon color="#000" size="24px" @click="setTheme('light')"></div>
-            <div v-else i-carbon:sun color="#000" size="24px" @click="setTheme('dark')" />
+            <div v-if="systemTheme == 'dark'" i-carbon:moon color="#fff" size="24px" @click="setTheme('light')"></div>
+            <div v-if="systemTheme == 'light'" i-carbon:sun color="#000" size="24px" @click="setTheme('dark')" />
           </el-dropdown-item>
           <el-dropdown-item divided>底部</el-dropdown-item>
         </el-dropdown-menu>
