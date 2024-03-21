@@ -1,7 +1,7 @@
 
 <!-- import layoutHeader from '~/components/layout-header.vue'; -->
 <template>
-  <div class="main-body" bg-hero-pattern bg-cover bg-center h-100vh>
+  <div class="main-bg-img" bg-cover bg-center h-100vh>
     <AppHeader flex justify-center items-center h-40px position-fixed top-30px left-0 right-0>
       <LayoutHeader></LayoutHeader>
     </AppHeader>
@@ -13,7 +13,7 @@
 </template>
 
 <style>
-/* .main-body {
-  background-image: url("/public/vague-rose-light.jpg");
-} */
+.main-body {
+  /* background-image: url("/public/vague-rose-light.jpg"); */
+}
 </style>

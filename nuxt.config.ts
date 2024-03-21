@@ -13,10 +13,10 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@vueuse/nuxt'
   ],
-  // css: [
-  //   '~/assets/theme/dark.css',
-  //   '~/assets/theme/light.css'
-  // ],
+  css: [
+    '~/styles/index.css',
+    '~/styles/themes.css',
+  ],
   elementPlus: { /** Options */ },
   devtools: { enabled: true }
 })

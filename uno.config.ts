@@ -8,17 +8,12 @@ export default defineConfig({
     }),
     presetAttributify()
   ],
-  theme: {
-    colors: {
-      'color': '#adbac7', // class="text-info"
-      'content': {
-        'primary': 'fe003b',  // class="text-content-primary"
-      },
-      extend: {
-        backgroundImage: {
-          'hero-pattern': "url('/public/vague-rose-light.jpg')"
-        }
-      },
-    },
-  }
+  // theme: {
+  //   colors: {
+  //     'main-img': 'var(--main-bgimg)', // class="text-info"
+  //     'content': {
+  //       'primary': 'fe003b',  // class="text-content-primary"
+  //     }
+  //   },
+  // }
 })

@@ -1,0 +1,33 @@
+/**dark*/
+.dark {
+    color: #C5D1DE;
+}
+
+.dark .main-bg-img {
+    background-image: url("/vague-rose-dark.jpg");
+}
+
+.dark .bg-dark-text-color {
+    color: #C5D1DE;
+}
+
+.dark .svg-color {
+    color: #fff;
+}
+
+/** light */
+.light{
+    color: #1f2328;
+}
+
+.light .main-bg-img {
+    background-image: url("/vague-rose-light.jpg");
+}
+
+.light .bg-dark-text-color {
+    color: #C5D1DE;
+}
+
+.light .svg-color {
+    color: #000;
+}

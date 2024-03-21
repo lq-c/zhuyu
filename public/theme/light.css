@@ -1,0 +1,15 @@
+:root{
+    color: #1f2328;
+}
+
+.main-bg-img {
+    background-image: url("/vague-rose-light.jpg");
+}
+
+.bg-dark-text-color {
+    color: #C5D1DE;
+}
+
+.svg-color {
+    color: #000;
+}
