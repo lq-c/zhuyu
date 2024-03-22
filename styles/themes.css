@@ -7,7 +7,9 @@
     background-image: url("/vague-rose-dark.jpg");
 }
 
-.dark .bg-dark-text-color {
+.dark .layout-header {
+    background-color: rgba(34,39,46);
+    border: 1px solid #373e47;
     color: #C5D1DE;
 }
 
@@ -24,8 +26,10 @@
     background-image: url("/vague-rose-light.jpg");
 }
 
-.light .bg-dark-text-color {
-    color: #C5D1DE;
+.light .layout-header {
+    background-color: rgba(246,248,250);
+    border: 1px solid #D0D7DE;
+    color: #000;
 }
 
 .light .svg-color {
